@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,900;1,700&family=Roboto:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+.inner{
+    width: 80%;
+    margin: auto;
+}
+.menu{
+    height: 66px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/cf2836cb-5893-4a6c-b156-5a89d94fc721/dcdzp3i-4d5efd10-c8ce-4b68-afd0-173150321f69.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvY2YyODM2Y2ItNTg5My00YTZjLWIxNTYtNWE4OWQ5NGZjNzIxXC9kY2R6cDNpLTRkNWVmZDEwLWM4Y2UtNGI2OC1hZmQwLTE3MzE1MDMyMWY2OS5naWYifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.UrpA6w90S2GHb79oUfLl7WjfM4-XZsXMEVV-3AX-P1A");
+    opacity: 0.70;
+}
+.logo{
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+    font-family: 'Roboto';
+    font-weight: 700    ;
+    font-size: 30px;
+    letter-spacing: 1.5px;
+    color: white;
+}
+.menu-left{ display: flex;
+            justify-content: center;
+            align-self: center;
+            
+}
+.menu-right{
+   float: right;
+}
+
+.m-link{
+    color: white;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 18px;
+    padding: 0px; margin: 0px  10px;
+    transition: all 0.3s ease-in-out;
+    border-bottom: 2px solid transparent;
+}
+.m-link i{
+    margin-right: 4px;
+}
+.m-link:hover{
+    border-color: white;
+}
+@media only screen and (max-width: 800px)
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato';
+    }
+
+
+    body{
+    background-image: url(https://i.pinimg.com/originals/f4/c9/0f/f4c90f5d6398d4427f2e7ae21817cd5c.jpg);  
+    -webkit-background-size:cover;
+    background-size:cover;
+    background-position: center center;
+    height: 100vh;
+    margin:0;
+    }
+    .content{
+    width: 860px; 
+    margin: 0 auto;
+    padding: 100px;
+    
+    
+    }
+
+    .content ul{
+    list-style: none;
+    margin-top: 1%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    flex:1;
+    
+    }
+
+    .content ul li {
+    background: #262626; 
+    width: 170px;
+    border: 3px solid #fff;
+    border-image: linear-gradient(to right, #355c7d, #6c5b7b, #c06c84,#2c5364,#c31432,#240b36);
+    border-image-slice: 1;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    float: left;
+    color: #fff;
+    font-size: 16px;
+    position: relative;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Fredoka One', cursive;
+    }
+
+    .content ul li:hover{
+    background: #6d1c19a6 
+    }
+    
+    .content ul ul{
+    display: none;
+    }
+
+    .content ul li:hover > ul{
+    display: block;
+    }
+
+    .content ul ul ul{
+    margin-left: 170px;
+    top: 0;
+    position: absolute;
+    }        
+   
+.conteneur{
+    display: flex;
+    flex-flow: wrap row;
+    justify-content: center;
+    justify-content: space-evenly;
+    margin-right: 13%;
+    margin-left: 13%;
+
+}
+
+.frame{
+    display: inline-block;
+    width: 250px;
+    height: 300px;
+    border: 4px solid #ccc;
+    border-image: linear-gradient(to right, #355c7d, #6c5b7b, #c06c84,#2c5364,#c31432,#240b36);
+    border-image-slice: 1;
+}
+.frame2{
+    display: block;
+    width: 200px;
+    height: 300px;
+    border: 4px solid #ccc;
+    border-image: linear-gradient(to right, #355c7d, #6c5b7b, #c06c84,#2c5364,#c31432,#240b36);
+    border-image-slice: 1;
+}
+.frame3{
+    display:block;
+    width: 220px;
+    height: 300px;
+    border: 4px solid #ccc;
+    border-image: linear-gradient(to right, #355c7d, #6c5b7b, #c06c84,#2c5364,#c31432,#240b36);
+    border-image-slice: 1;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    height: 40px;
+    margin-top: 50px;
+    padding: 15px;
+    background-color: #d8dfe6b6;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+    

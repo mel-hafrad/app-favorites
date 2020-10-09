@@ -1,0 +1,109 @@
+@import url(https://fr.allfont.net/allfont.css?fonts=resident-evil);
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(https://i.pinimg.com/originals/c2/30/e5/c230e5affbcd3c151c9accda1d99638b.jpg);
+    background-size: cover;
+    
+}
+
+a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.815);
+}
+.home{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    font-size: 30px;
+    background:rgb(117, 117, 117);
+    border: 3px solid black;
+    border-image: linear-gradient(to right,rgb(117, 117, 117),#240b36);
+    border-image-slice: 1;
+    opacity: 0.9;
+    padding: 5px;
+      
+    
+}
+.h1style{
+    font-family: 'Halo';
+    font-size: 95px;
+    display: flex;
+    justify-content: center;
+    color:rgb(190, 185, 185);
+    text-shadow:1px 1px 2px red, 0 0 1em rgb(94, 201, 178), 0 0 0.2em rgb(124, 59, 155);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.m-link{
+    color: white;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 18px;
+    padding: 0px; margin: 0px  10px;
+    transition: all 0.3s ease-in-out;
+    border-bottom: 2px solid transparent;
+}
+.m-link:hover{
+    border-color: rgb(19, 1, 1);
+}
+
+.imgdays{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.imgtext{
+    height: 100px;
+    width: 100px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-left: 1px;
+    margin-right: 1px;
+}
+
+.titletext h3{
+    color: white;
+    font-family: fantasy;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-size: 30px;
+}
+
+.titletext h3{
+    color: white;
+    font-family: 'Resident Evil', arial;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-size: 55px;
+    letter-spacing: 2px;
+    text-shadow:1px 1px 2px red, 0 0 1em rgb(94, 201, 178), 0 0 0.2em rgb(124, 59, 155);
+}
+
+.textcontent{
+    margin-top: 15px    ;
+    color: white;
+    font-family: 'Resident Evil', arial;
+    text-shadow:1px 1px 2px red, 0 0 1em rgb(94, 201, 178), 0 0 0.2em rgb(124, 59, 155);
+    justify-content: center;
+    font-size: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
+.youtube{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
